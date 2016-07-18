@@ -1,0 +1,172 @@
+@font-face{
+	font-family: 'overpass';
+	src:url(fonts/Overpass.ttf) format("truetype");
+	src:url(fonts/Overpass.eot) format("eot");
+	src:url(fonts/Overpass.svg) format("svg");
+	src:url(fonts/Overpass.woff) format("woff");
+}
+
+html,body{
+	height: 100%;
+	min-width: 560px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.s-container{
+	min-height: 100%;
+	padding:0px;
+	margin: 0 auto;
+	background-color: #fafafa;
+}
+
+.s-content{
+	padding-bottom: 80px;
+	margin: 0 auto;
+	width: 100%;
+}
+.footer-container{
+	margin: 0 auto;
+	width: 85%;
+}
+
+/*--nav--*/
+.navbar-brand {
+    float: left;
+    padding: 15px 20px;
+    font-size: 12px;
+    line-height: 13px;
+    height: 50px;
+}
+.navbar-brand b{
+	display: inline-block;
+	letter-spacing:3px;
+	margin-right: 5px;
+}
+.navbar-brand strong{
+	display: inline-block;
+	letter-spacing:0px;
+	margin-right: 5px;
+	font-weight: 600;
+}
+.navbar-brand span{
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+}
+.navbar-pf{
+	border-top-color: #cc0000;
+}
+
+/*--nav--*/
+/*--footer--*/
+footer{
+	min-width: 530px;
+	display: block;
+	padding:10px 0px 10px 0px;
+	background-color: #eee;
+	border-top: 1px #e0e0e0 solid;
+	margin: 5px 0px 0px 0px;
+	font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+	margin-top: -80px;
+	height: 80px;
+	width: 100%;
+}
+
+.footer-container{
+	margin: 0 auto;
+	color: #333;
+}
+.footer-content{
+	float: left;
+	height: 65px;
+	padding-top: 10px;
+	margin-top: 3px;
+}
+.footer-content img{
+	height: 32px;
+	padding-left: 10px;
+	vertical-align: middle;
+}
+.footer-display{
+	float: right;
+	padding-right: 20px;
+	margin-top: 11px;
+	text-align: right;
+	
+}
+.footer-display ul{
+
+	margin-bottom: 10px;
+	display: inline-block;
+	list-style:none;
+
+}
+.footer-display a{
+	font-weight: bold;
+	text-decoration: none;
+	color: #820000;
+}
+/*--footer--*/
+
+a{
+	text-decoration: none;
+}
+.col-sm-10 a{
+	text-decoration: none;
+}
+.fa-angle-double-right{
+	font-weight: bold;
+}
+.top-nav{
+	padding: 20px 0px 0px 0px;
+	margin: 0px auto;
+}
+.table{
+		font-family:"Open Sans", Helvetica,Arial,sans-serif;
+}
+.container-fulid{
+	margin: 0px auto;
+}
+.row{
+	width: 85%;
+	margin: 0px auto;
+
+}
+.navnav{
+	margin: 0px auto;
+}
+.navnav1{
+	margin: 0px auto;
+	width: 85%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.pkg-status{
+	font-size: 11px;
+	font-weight: bold;
+	padding:2px 9px 1px 9px;
+	margin: 0px 0px 0px 15px;
+	max-width: 100px;
+}
+.pkg-status-submitted{
+	background-color: #09f;
+	color: #fff;
+}
+.pkg-status-done{
+	background-color: #096;
+	color: #fff;
+}
+.pkg-status-canceled{
+	background-color: #666;
+	color: #fff;
+}
+.pkg-status-in-progress-o{
+	background-color: #fc6;
+	color: #000;
+}
+.col-sm-12{
+	padding:0;
+
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Signing Privileges</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Signing-Privileges">
+            <path d="M40.2519531,82.9570312 L40.1793927,133.681705 C40.1793927,133.681705 39.5583694,140.873912 40.8144532,142.306641 C42.0705369,143.739369 48.3862483,143.0427 48.3862483,143.0427 L152.153462,143.162579 C152.153462,143.162579 157.146971,143.714844 159.144041,141.735352 C161.141111,139.755859 160.195581,134.277992 160.195581,134.277992 L160.173074,90.8907315 L160.168945,82.9326172 L151.918945,82.9326172 L46.1000977,82.9326172" id="Path-6" stroke="#9B9B9B" stroke-width="3"></path>
+            <circle id="Oval-1" stroke="#979797" stroke-width="3" cx="100" cy="58" r="5"></circle>
+            <polyline id="Path-7" stroke="#979797" stroke-width="3" points="96.734375 55.2021484 52.9375 82.8085938 148.097656 82.5029297 104.064941 55.2021484"></polyline>
+            <text id="PASS" font-family="AndaleMono, Andale Mono" font-size="34" font-weight="normal" fill="#9B9B9B">
+                <tspan x="59.6933594" y="127">PASS</tspan>
+            </text>
+            <path d="M40.355957,89.6367188 L155.5,89.6367188" id="Path-8" stroke="#979797" stroke-width="3"></path>
+        </g>
+    </g>
+</svg>

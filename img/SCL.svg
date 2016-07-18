@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.3 (29802) - http://www.bohemiancoding.com/sketch -->
+    <title>Add SCL (Source List)</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Add-SCL-(Source-List)">
+            <path d="M59,53.8203125 L59,131.050854 C59,131.050854 59,142.340785 59,144.230641 C60.3512368,146.575842 64.6057264,146.370116 64.6057264,146.370116 L135.484348,146.566298 C135.484348,146.566298 139.595248,147.470079 140.959355,144.230641 C140.959355,140.424641 140.97755,132.026676 140.97755,132.026676 L140.962176,61.0234496 L140.959356,48 L135.32416,48 L89.5449219,48" id="Path-6" stroke="#9B9B9B" stroke-width="3"></path>
+            <path d="M63.4111759,48.4858525 L83.5,48.4858525" id="Path-10" stroke="#979797" stroke-width="3"></path>
+            <path d="M73.5,58.5 L73.5,40" id="Path-10" stroke="#979797" stroke-width="3"></path>
+            <rect id="Rectangle-1" fill="#9B9B9B" x="76" y="77" width="5" height="4"></rect>
+            <rect id="Rectangle-1-Copy-2" fill="#9B9B9B" x="76" y="94" width="5" height="4"></rect>
+            <rect id="Rectangle-1-Copy-4" fill="#9B9B9B" x="76" y="112" width="5" height="4"></rect>
+            <rect id="Rectangle-1-Copy" fill="#9B9B9B" x="85" y="77" width="41" height="4"></rect>
+            <rect id="Rectangle-1-Copy-3" fill="#9B9B9B" x="85" y="94" width="41" height="4"></rect>
+            <rect id="Rectangle-1-Copy-5" fill="#9B9B9B" x="85" y="112" width="41" height="4"></rect>
+        </g>
+    </g>
+</svg>

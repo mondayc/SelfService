@@ -1,0 +1,61 @@
+.top-nav{
+	padding: 20px 0px 10px 5px;
+	width: 768px;
+	margin: 0px auto;
+}
+.form-container{
+	padding-bottom: 50px;
+}
+.modules-form{
+	padding: 0px 30px 40px 30px;
+	width: 768px;
+	margin: 0px auto;
+	background-color: #fff;
+	box-shadow: 1px 5px 5px #aaa;
+}
+.modules-form h1{
+	font-family: 'overpass','Open Sans',Helvetica,Arial,sans-serif;
+	margin: 0px;
+	padding: 40px 0px 0px 0px;
+}
+.col-sm-10 a{
+	text-decoration: none;
+}
+.table{
+	font-family:"Open Sans", Helvetica,Arial,sans-serif;
+	color: #000;
+}
+.pagination-input .paginate_input{
+	background-image: none;
+}
+.dataTables_header .dataTables_filter input{
+	background-image: none;
+}
+.form-horizontal .control-label{
+	text-align: inherit;
+}
+.form-control{
+	margin-left: 20px;
+	width: 60%;
+	max-width: 700px;
+}
+.col-sm-2{
+	width:50%;
+}
+.explain{
+	margin-left: 20px;
+	color: #888;
+}
+.imp{
+	color: #cc0000;
+	font-size: 14px;
+}
+.btn-group>.btn:first-child {
+    margin-left: 20px;
+}
+.dropdown-menu{
+	margin-left: 20px;
+}
+body{
+	min-width: 800px;
+}

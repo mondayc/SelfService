@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Dist-Git Repository Change</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet"  href="./dist/css/patternfly.min.css" media="screen, print">
+	<link rel="stylesheet"  href="./dist/css/patternfly-additions.min.css" media="screen, print">
+	<link rel="stylesheet"  href="mystyle.css" media="screen, print">
+	<link rel="stylesheet"  href="dist-style.css" media="screen, print">
+	<link rel="stylesheet" type="text/css" href="./components/bootstrap-select/dist/css/bootstrap-select.css" media="screen,print">
+</head>
+<body>
+	<div class="s-container">
+		<div class="s-content">
+			<nav role="navigation" class="navbar navbar-default navbar-pf">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a href="#" class="navbar-brand">
+						<strong>RED HAT</strong>
+						<span>Customer Self Service Portal</span>
+					</a>
+				</div>
+
+				<div class="collapse navbar-collapse navbar-collapse-1">
+					<ul class="nav  navbar-nav navbar-utility">
+						<li>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown"> <span class="pficon pficon-user"></span> Xiaoyu Ni<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Change account</a>
+								</li>
+								<li>
+									<a href="#">Log Out</a>
+								</li>
+							</ul>
+						</li>
+						<li class="dropdown">
+							
+						</li>
+						<li>
+							<a href="https://mojo.redhat.com/docs/DOC-1062426" target="_blank">About Self Service</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<ol class="breadcrumb top-nav">
+				<li>
+				<a href="index.html">Home</a>
+				</li>
+				<li>
+					Dist-Git Repository Change
+				</li>
+			</ol>
+
+			<div class="form-container">
+				<div class="modules-form">
+					<h1>Dist Git Repository Change</h1>
+					<br />
+					<p>This form accommodate dist-git repository change requests for RPM builds. A requester need only know the package names that are affected, the product version(s), and whether they belong to a Software Collection or not.
+						<br /><br />
+						This is NOT the correct form to use for requesting a new RHEL package.
+						This is NOT the form to use for requesting a repository for docker files.
+						<br /><br />
+						The SOP explanation document for this form is here: <a href="https://mojo.redhat.com/docs/DOC-1077623" target="_blank">https://mojo.redhat.com/docs/DOC-1077623</a>
+					</p><br />
+					<hr />
+
+					<form class="form-horizontal">
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="exampleInput">Package Names <span class="imp">  *</span></label>
+							<br /><br />
+							<p class="explain">
+								List out the package names that are involved, 1 per line. The name is the SRPM name, which usually excludes any versioning information. If packages are part of a software collection (SCL), remember to include the prefix.
+							</p>
+
+							<textarea class="form-control" id="messageArea"rows="5"></textarea>
+						</div><br />
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="exampleInput">Product <span class="imp">  *</span></label>
+							<br /><br />
+							<p class="explain">
+								Indicate which product and version this is for. If you need multiple branches, then you need to fill out multiple forms. If you do not see the product you work on, send a request to <a href="mailto:release-engineering@redhat.com" >release-engineering@redhat.com </a> to have it added.
+
+							</p>
+
+							<select class="selectpicker">
+								<option>Name 1</option>
+								<option>Name 2</option>
+								<option>Name 3</option>
+								<option>Name 4</option>
+							</select>
+							<span>
+								<select class="selectpicker">
+									<option>Version 3.1</option>
+									<option>Version 3.0</option>
+									<option>Version 2.0</option>
+									<option>Version 1.0</option>
+								</select>
+							</span>
+						</div><br />
+						
+						<div class="form-group">
+							<div class="col-sm-10">
+								<a href="Submitted.html">
+									<button type="button" class="btn btn-primary">Submit</button>
+								</a>
+								&nbsp;&nbsp;
+								<button type="button" class="btn btn-default" data-toggle="modal" data-target="#myModal">Cancel</button>
+
+								<!-->
+								<!-->
+								<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModayLabel" aria-hidden="true">
+									<div class="modal-dialog">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+												<span class="pficon pficon-close"></span>
+												</button>
+												<h4 class="modal-title" id="myModalLabel">
+													Are you sure to cancel?
+												</h4>
+											</div>
+											<div class="modal-body">
+												The request will not be saved.
+											</div>
+											<div class="modal-footer">
+												<a href="index.html">
+												<button type="button" class="btn btn-default">
+													Sure
+												</button>
+												</a>
+												<button type="button" class="btn btn-primary" data-dismiss="modal">
+													Cancel
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div> <!-- modules-form -->
+			</div> <!-- form-container -->
+		</div> <!-- s-content -->
+	</div> <!-- s-container -->
+
+	<footer>
+		<div class="footer-container">
+			<div class="footer-content">
+				<img src="img/pnt.png">
+			</div>
+			<div class="footer-display">
+				<ul>
+<!-- 					<li>Version 1.0&nbsp;&nbsp;<a class="myCustomTrigger" href="#">Report a Bug</a></li>
+					<li>Copyright &copy; 2016 Red Hat, Inc. All rights reserved.</li> -->
+					<li>Powered by <a href="https://mojo.redhat.com/groups/pnt-ux">PnT DevOps</a></li>
+					<li>INTERNAL USE ONLY</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./components/jquery/dist/jquery.min.js"></script>
+	<script src="./components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="./components/datatables/media/js/jquery.dataTables.js"></script>
+	<script src="./dist/js/patternfly.min.js"></script>
+	<script src="./components/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+	<script>// Initialize Boostrap-select
+		$('.selectpicker').selectpicker();
+	</script>
+</body>
+</html>
